@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+  min-width: 260px;
+  max-width: 800px;
+  padding: 16px;
+}
+
+h1 {
+  -webkit-margin-after: 16px;
+          margin-block-end: 16px;
+}
+
+h2,
+button,
+input {
+  -webkit-margin-after: 8px;
+          margin-block-end: 8px;
+}
+
+h1 {
+  -webkit-padding-after: 8px;
+          padding-block-end: 8px;
+  border-bottom: 2px solid black;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex-grow: 1;
+}
+input.radio {
+  flex-grow: 0;
+}/*# sourceMappingURL=style.css.map */
